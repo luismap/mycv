@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #E9D5DA;
+    --secondary-color:#827397;
+    --icon-color: #4D4C7D;
+    --text-color: #363062;
+    --text-color-secondary: #2C2561;
+}
+
+body {
+    background-color:var(--primary-color);
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 6px;
+    border-top-color: var(--secondary-color);
+    width: 3%;
+    
+}
+
+h1 {
+    color:var(--text-color);
+}
+
+h2 {
+    color: var(--text-color-secondary);
+}
